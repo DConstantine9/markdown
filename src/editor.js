@@ -14,6 +14,7 @@ export default class Editor extends React.Component {
         <textarea 
           onChange={this.props.updateData}
           defaultValue={this.props.output}
+          type="text"
         ></textarea>
       </div>
     )

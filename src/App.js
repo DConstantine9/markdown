@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import Editor from "./editor"
 import Previewer from "./previewer"
-
-
+let  MarkdownIt = require('markdown-it')
+let md = new MarkdownIt();
 
 class App extends React.Component {
   constructor(props) {
